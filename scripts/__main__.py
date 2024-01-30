@@ -8,12 +8,14 @@ from data.Tokens import Tokens
 # dapps:
 from data.dapps.Uniswap import UniswapV2
 from data.dapps.Pancake import PancakeSwapV2
+from data.dapps.OneInchNetwork import OneInchNetwork
 
 datas = [
     ChainId,
     Tokens,
     UniswapV2,
-    PancakeSwapV2
+    PancakeSwapV2,
+    OneInchNetwork
 ]
 
 _PATH = os.getenv("EVM_ADDRESSES_PATH")
