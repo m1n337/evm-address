@@ -32,6 +32,24 @@ address constant USDP = 0xb3c11196A4f3b1da7c23d9FB0A3dDE9c6340934F;
 
 address constant TUSD = 0x14016E85a25aeb13065688cAFB43044C2ef86784;
 
+address constant UniswapV3_SwapRouter02 = 0xB971eF87ede563556b2ED4b1C0b0019111Dd85d2;
+
+address constant UniswapV3_NonfungiblePositionManager = 0x7b8A01B39D58278b5DE7e48c8449c9f4F5170613;
+
+address constant UniswapV3_Factory = 0xdB1d10011AD0Ff90774D0C6Bb92e5C5c8b4461F7;
+
+address constant UniswapV3_TickLens = 0xD9270014D396281579760619CCf4c3af0501A47C;
+
+address constant UniswapV3_QuoterV2 = 0x78D78E420Da98ad378D7799bE8f4AF69033EB077;
+
+address constant UniswapV3_ProxyAdmin = 0xC9A7f5b73E853664044ab31936D0E6583d8b1c79;
+
+address constant UniswapV3_Multicall2 = 0x963Df249eD09c358A4819E39d9Cd5736c3087184;
+
+address constant UniswapV3_Permit2 = 0x000000000022D473030F116dDEE9F6B43aC78BA3;
+
+address constant UniswapV3_UniversalRouter = 0x5302086A3a25d473aAbBd0356eFf8Dd811a4d89B;
+
 address constant PancakeSwapV2_Factory = 0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73;
 
 address constant PancakeSwapV2_Router = 0x10ED43C718714eb63d5aA57B78B54704E256024E;

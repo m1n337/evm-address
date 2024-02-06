@@ -16,7 +16,9 @@ class ChainId:
         "METIS": 1088,
         "HARMONY": 1666600000,
         "ZKSYNC_ERA": 324,
-        "LINEA": 59144
+        "LINEA": 59144,
+
+        # Testnet
     }
     _path = "dapps/ChainId.sol"
 

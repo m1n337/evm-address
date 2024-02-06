@@ -6,7 +6,7 @@ from data.ChainId import ChainId
 from data.Tokens import Tokens
 
 # dapps:
-from data.dapps.Uniswap import UniswapV2
+from data.dapps.Uniswap import UniswapV2, UniswapV3
 from data.dapps.Pancake import PancakeSwapV2
 from data.dapps.OneInchNetwork import OneInchNetwork
 
@@ -14,6 +14,7 @@ datas = [
     ChainId,
     Tokens,
     UniswapV2,
+    UniswapV3,
     PancakeSwapV2,
     OneInchNetwork
 ]

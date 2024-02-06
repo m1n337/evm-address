@@ -1,0 +1,18 @@
+address constant UniswapV3_SwapRouter02 = 0x2626664c2603336E57B271c5C0b26F421741e481;
+
+address constant UniswapV3_NonfungiblePositionManager = 0x03a520b32C04BF3bEEf7BEb72E919cf822Ed34f1;
+
+address constant UniswapV3_Factory = 0x33128a8fC17869897dcE68Ed026d694621f6FDfD;
+
+address constant UniswapV3_TickLens = 0x0CdeE061c75D43c82520eD998C23ac2991c9ac6d;
+
+address constant UniswapV3_QuoterV2 = 0x3d4e44Eb1374240CE5F1B871ab261CD16335B76a;
+
+address constant UniswapV3_ProxyAdmin = 0x3334d83e224aF5ef9C2E7DDA7c7C98Efd9621fA9;
+
+address constant UniswapV3_Multicall2 = 0x091e99cb1C49331a94dD62755D168E941AbD0693;
+
+address constant UniswapV3_Permit2 = 0x000000000022D473030F116dDEE9F6B43aC78BA3;
+
+address constant UniswapV3_UniversalRouter = 0x198EF79F1F515F02dFE9e3115eD9fC07183f02fC;
+
