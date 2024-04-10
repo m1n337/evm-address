@@ -10,4 +10,4 @@ class PancakeSwapV2(Dapp):
             .on_addr("0x10ED43C718714eb63d5aA57B78B54704E256024E").bsc
     ]
 
-    _path = "dapps/PancakeSwapV2.sol"
+    _path = "dapps/PancakeSwapV2"

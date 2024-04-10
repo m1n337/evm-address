@@ -39,6 +39,11 @@ class ChainSupporter:
         return self
 
     @property
+    def polygon_zkevm(self):
+        self._add_chain("POLYGON_ZKEVM")
+        return self
+
+    @property
     def base(self):
         self._add_chain("BASE")
         return self
@@ -46,6 +51,36 @@ class ChainSupporter:
     @property
     def celo(self):
         self._add_chain("CELO")
+        return self
+    
+    @property
+    def gnosis(self):
+        self._add_chain("GNOSIS")
+        return self
+    
+    @property
+    def avalance(self):
+        self._add_chain("AVALANCE")
+        return self 
+    
+    @property
+    def moonriver(self):
+        self._add_chain("MOONRIVER")
+        return self
+    
+    @property
+    def metis(self):
+        self._add_chain("METIS")
+        return self
+    
+    @property
+    def harmony(self):
+        self._add_chain("HARMONY")
+        return self
+    
+    @property
+    def fantom(self):
+        self._add_chain("FANTOM")
         return self
     
     # Testnet

@@ -7,4 +7,4 @@ class OneInchNetwork(Dapp):
         Contract("AggregationRouterV5").on_addr("0x1111111254EEB25477B68fb85Ed929f73A960582").mainnet
     ]
 
-    _path = "dapps/OneInchNetwork.sol"
+    _path = "dapps/OneInchNetwork"

@@ -10,7 +10,7 @@ class UniswapV2(Dapp):
             .on_addr("0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D").mainnet
     ]
 
-    _path = "dapps/UniswapV2.sol"    
+    _path = "dapps/UniswapV2"    
 
 class UniswapV3(Dapp):
     _contracts = [
@@ -58,4 +58,4 @@ class UniswapV3(Dapp):
             .on_addr("0x198EF79F1F515F02dFE9e3115eD9fC07183f02fC").base,
     ]
 
-    _path = "dapps/UniswapV3.sol"
+    _path = "dapps/UniswapV3"
