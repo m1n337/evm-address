@@ -11,13 +11,16 @@ from data.dapps.Uniswap import UniswapV2, UniswapV3
 from data.dapps.Pancake import PancakeSwapV2
 from data.dapps.OneInchNetwork import OneInchNetwork
 from data.dapps.Pendle import Pendle
+from data.dapps.LayerZero import LayerZero
+
 datas = [
     Tokens,
     UniswapV2,
     UniswapV3,
     PancakeSwapV2,
     OneInchNetwork,
-    Pendle
+    Pendle,
+    LayerZero
 ]
 
 _PATH = os.getenv("EVM_ADDRESSES_PATH")

@@ -64,3 +64,5 @@ address constant Pendle_VotingEscrowPendleMainchain = 0x4f30A9D41B80ecC5B94306AB
 
 address constant Pendle_vePENDLE = 0x4f30A9D41B80ecC5B94306AB4364951AE3170210;
 
+address constant LayerZero_Endpoint = 0x66A71Dcef29A0fFBDBE3c6a460a3B5BC225Cd675;
+
