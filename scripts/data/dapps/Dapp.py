@@ -22,6 +22,9 @@ class Dapp(ABC):
                 res[contract.name] = {}
                 for chain, addr in contract.chains:
                     res[contract.name][chain] = addr
+                    for alias in contract.aliases:
+                        res.setdefault(alias, {})[chain] = addr
+                        
             cls._data = res
 
         return cls._data

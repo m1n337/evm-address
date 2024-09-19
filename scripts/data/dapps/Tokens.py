@@ -139,6 +139,8 @@ class Tokens(Dapp):
         Contract("TUSD")\
             .on_addr("0x0000000000085d4780B73119b644AE5ecd22b376").mainnet\
             .on_addr("0x14016E85a25aeb13065688cAFB43044C2ef86784").bsc,
+        Contract("PENDLE")\
+            .on_addr("0x808507121B80c02388fAd14726482e0615279145").mainnet,
     ]
 
     _path = "dapps/Tokens"

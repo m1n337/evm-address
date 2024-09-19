@@ -97,8 +97,17 @@ class ChainSupporter:
 class Contract(ChainSupporter):
     def __init__(self, name: str) -> None:
         self._name = name
-        
+        self._aliases = []
+
         super().__init__()
+
+    def alias(self, alias: str):
+        self._aliases.append(alias)
+        return self
+
+    @property
+    def aliases(self) -> list[str]:
+        return self._aliases
 
     @property
     def name(self) -> str:

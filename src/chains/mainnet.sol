@@ -32,6 +32,8 @@ address constant Tokens_USDP = 0x8E870D67F660D95d5be530380D0eC0bd388289E1;
 
 address constant Tokens_TUSD = 0x0000000000085d4780B73119b644AE5ecd22b376;
 
+address constant Tokens_PENDLE = 0x808507121B80c02388fAd14726482e0615279145;
+
 address constant UniswapV2_Factory = 0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f;
 
 address constant UniswapV2_Router = 0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D;
@@ -55,4 +57,10 @@ address constant UniswapV3_Permit2 = 0x000000000022D473030F116dDEE9F6B43aC78BA3;
 address constant UniswapV3_UniversalRouter = 0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD;
 
 address constant OneInchNetwork_AggregationRouterV5 = 0x1111111254EEB25477B68fb85Ed929f73A960582;
+
+address constant Pendle_PendleRouter = 0x0000000001E4ef00d069e71d6bA041b0A16F7eA0;
+
+address constant Pendle_VotingEscrowPendleMainchain = 0x4f30A9D41B80ecC5B94306AB4364951AE3170210;
+
+address constant Pendle_vePENDLE = 0x4f30A9D41B80ecC5B94306AB4364951AE3170210;
 
