@@ -140,7 +140,11 @@ class Tokens(Dapp):
             .on_addr("0x0000000000085d4780B73119b644AE5ecd22b376").mainnet\
             .on_addr("0x14016E85a25aeb13065688cAFB43044C2ef86784").bsc,
         Contract("PENDLE")\
-            .on_addr("0x808507121B80C02388fad14726482e0615279145").mainnet,
+            .on_addr("0x808507121B80C02388fad14726482e0615279145").mainnet
+            .on_addr("0xb3Ed0A426155B79B898849803E3B36552f7ED507").bsc
+            .on_addr("0xd27B18915e7acc8FD6Ac75DB6766a80f8D2f5729").arbitrum
+            .on_addr("0xBC7B1Ff1c6989f006a1185318eD4E7b5796e66E1").optimism
+            .on_addr("0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8").mantle,
     ]
 
     _path = "dapps/Tokens"

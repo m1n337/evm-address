@@ -34,4 +34,6 @@ library ChainId {
 
 	uint256 constant LINEA = 59144;
 
+	uint256 constant MANTLE = 5000;
+
 }

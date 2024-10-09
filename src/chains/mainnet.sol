@@ -60,9 +60,41 @@ address constant OneInchNetwork_AggregationRouterV5 = 0x1111111254EEB25477B68fb8
 
 address constant Pendle_PendleRouter = 0x0000000001E4ef00d069e71d6bA041b0A16F7eA0;
 
+address constant Pendle_PendleRouterV4 = 0x888888888889758F76e7103c6CbF23ABbF58F946;
+
+address constant Pendle_limitRouter = 0x000000000000c9B3E2C3Ec88B1B4c0cD853f4321;
+
 address constant Pendle_VotingEscrowPendleMainchain = 0x4f30A9D41B80ecC5B94306AB4364951AE3170210;
 
 address constant Pendle_vePENDLE = 0x4f30A9D41B80ecC5B94306AB4364951AE3170210;
+
+address constant Pendle_PendleYieldContractFactory = 0x70ee0A6DB4F5a2Dc4d9c0b57bE97B9987e75BAFD;
+
+address constant Pendle_PendleYieldContractFactoryV3 = 0xdF3601014686674e53d1Fa52F7602525483F9122;
+
+address constant Pendle_PendleYieldContractFactoryV4 = 0x273b4bFA3Bb30fe8F32c467b5f0046834557F072;
+
+address constant Pendle_PendleYieldContractFactoryV5 = 0x35A338522a435D46f77Be32C70E215B813D0e3aC;
+
+address constant Pendle_PendleMarketFactory = 0x27b1dAcd74688aF24a64BD3C9C1B143118740784;
+
+address constant Pendle_PendleMarketFactoryV3 = 0x1A6fCc85557BC4fB7B534ed835a03EF056552D52;
+
+address constant Pendle_PendleMarketFactoryV4 = 0x3d75Bd20C983edb5fD218A1b7e0024F1056c7A2F;
+
+address constant Pendle_PendleMarketFactoryV5 = 0x6fcf753f2C67b83f7B09746Bbc4FA0047b35D050;
+
+address constant Pendle_PoolDeployHelper = 0x4Df98410c95737FD646D2413AC6CAFc1c04834b9;
+
+address constant Pendle_PendleSwap = 0x2E6ffA05cd6920dcc0d169efce2F4C96E774eCd2;
+
+address constant Pendle_PendlePYLpOracle = 0x9a9fa8338dd5e5b2188006f1cd2ef26d921650c2;
+
+address constant Pendle_Reflector = 0x5039Da22E5126e7c4e9284376116716A91782faF;
+
+address constant Pendle_votingController = 0x44087E105137a5095c008AaB6a6530182821F2F0;
+
+address constant Pendle_gaugeController = 0x47D74516B33eD5D70ddE7119A40839f6Fcc24e57;
 
 address constant LayerZero_Endpoint = 0x66A71Dcef29A0fFBDBE3c6a460a3B5BC225Cd675;
 

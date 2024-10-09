@@ -1,0 +1,32 @@
+address constant Tokens_PENDLE = 0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8;
+
+address constant Pendle_PendleRouterV4 = 0x888888888889758F76e7103c6CbF23ABbF58F946;
+
+address constant Pendle_limitRouter = 0x000000000000c9B3E2C3Ec88B1B4c0cD853f4321;
+
+address constant Pendle_VotingEscrowPendleMainchain = 0x30c6d4e892871220B5Ab66c10db577da96Fb974b;
+
+address constant Pendle_vePENDLE = 0x30c6d4e892871220B5Ab66c10db577da96Fb974b;
+
+address constant Pendle_PendleYieldContractFactoryV3 = 0x964840644B88C583500F473E4B829Ab629aF96A8;
+
+address constant Pendle_PendleYieldContractFactoryV4 = 0x5256e5dbe627e696b2e54eb77c2227276D80cd3c;
+
+address constant Pendle_PendleYieldContractFactoryV5 = 0x5dFBEAEa9e41f85c334075482A20afb7031207aE;
+
+address constant Pendle_PendleMarketFactoryV3 = 0xD228EC1f7D4313fe321fab511A872475D07F5bA6;
+
+address constant Pendle_PendleMarketFactoryV4 = 0xCa274A44a52241c1a8EFb9f84Bf492D8363929FC;
+
+address constant Pendle_PendleMarketFactoryV5 = 0xcb02435716b0143D4Ac1BDf370302D619E714126;
+
+address constant Pendle_PoolDeployHelper = 0x553dCDd1297058B2b2E05779FC5Ec3d5225376Ce;
+
+address constant Pendle_PendleSwap = 0x2E6ffA05cd6920dcc0d169efce2F4C96E774eCd2;
+
+address constant Pendle_PendlePYLpOracle = 0x9a9fa8338dd5e5b2188006f1cd2ef26d921650c2;
+
+address constant Pendle_Reflector = 0x5039Da22E5126e7c4e9284376116716A91782faF;
+
+address constant Pendle_gaugeController = 0x428f2f93afAc3F96B0DE59854038c585e06165C8;
+

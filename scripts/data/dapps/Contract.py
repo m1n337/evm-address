@@ -83,6 +83,11 @@ class ChainSupporter:
         self._add_chain("FANTOM")
         return self
     
+    @property
+    def mantle(self):
+        self._add_chain("MANTLE")
+        return self
+
     # Testnet
     # @property
     # def goerli(self):

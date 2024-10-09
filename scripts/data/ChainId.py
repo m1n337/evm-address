@@ -17,6 +17,7 @@ class ChainId:
         "HARMONY": 1666600000,
         "ZKSYNC_ERA": 324,
         "LINEA": 59144,
+        "MANTLE": 5000,
 
         # Testnet
     }
