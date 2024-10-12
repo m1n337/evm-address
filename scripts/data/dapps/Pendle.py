@@ -70,7 +70,7 @@ class Pendle(Dapp):
         Contract("PendleSwap")\
             .on_addr("0x2E6ffA05cd6920dcc0d169efce2F4C96E774eCd2").mainnet.arbitrum.mantle.optimism.bsc,
         Contract("PendlePYLpOracle")\
-            .on_addr("0x9a9fa8338dd5e5b2188006f1cd2ef26d921650c2").mainnet.arbitrum.mantle.optimism.bsc,
+            .on_addr("0x9a9Fa8338dd5E5B2188006f1Cd2Ef26d921650C2").mainnet.arbitrum.mantle.optimism.bsc,
         Contract("Reflector")\
             .on_addr("0x5039Da22E5126e7c4e9284376116716A91782faF").mainnet.arbitrum.mantle.optimism.bsc,
         Contract("votingController")\
