@@ -77,7 +77,7 @@ class Pendle(Dapp):
             .on_addr("0x44087E105137a5095c008AaB6a6530182821F2F0").mainnet,
         Contract("gaugeController")\
             .on_addr("0x47D74516B33eD5D70ddE7119A40839f6Fcc24e57").mainnet
-            .on_addr("0x1e56299ebc8a1010cec26005d12e3e5c5cc2db00").arbitrum
+            .on_addr("0x1e56299EbC8A1010cEc26005d12e3e5c5cC2db00").arbitrum
             .on_addr("0x428f2f93afAc3F96B0DE59854038c585e06165C8").mantle
             .on_addr("0x6875e4A945E498FE1B90BbB13CFbAF0b68658C9C").optimism
             .on_addr("0x704478Dd72FD7F9B83d1F1e0fc18C14B54F034d0").bsc,

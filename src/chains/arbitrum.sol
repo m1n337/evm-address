@@ -60,7 +60,7 @@ address constant Pendle_PendlePYLpOracle = 0x9a9Fa8338dd5E5B2188006f1Cd2Ef26d921
 
 address constant Pendle_Reflector = 0x5039Da22E5126e7c4e9284376116716A91782faF;
 
-address constant Pendle_gaugeController = 0x1e56299ebc8a1010cec26005d12e3e5c5cc2db00;
+address constant Pendle_gaugeController = 0x1e56299EbC8A1010cEc26005d12e3e5c5cC2db00;
 
 address constant YieldYak_YakSwapRouter = 0xb32C79a25291265eF240Eb32E9faBbc6DcEE3cE3;
 
