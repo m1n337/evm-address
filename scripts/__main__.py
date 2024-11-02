@@ -12,6 +12,8 @@ from data.dapps.Pancake import PancakeSwapV2
 from data.dapps.OneInchNetwork import OneInchNetwork
 from data.dapps.Pendle import Pendle
 from data.dapps.LayerZero import LayerZero
+from data.dapps.YieldYak import YieldYak
+from data.dapps.DeltaPrime import DeltaPrime
 
 datas = [
     Tokens,
@@ -20,7 +22,9 @@ datas = [
     PancakeSwapV2,
     OneInchNetwork,
     Pendle,
-    LayerZero
+    LayerZero,
+    YieldYak,
+    DeltaPrime
 ]
 
 _PATH = os.getenv("EVM_ADDRESSES_PATH")

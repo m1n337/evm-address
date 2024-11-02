@@ -66,3 +66,5 @@ address constant Pendle_Reflector = 0x5039Da22E5126e7c4e9284376116716A91782faF;
 
 address constant Pendle_gaugeController = 0x6875e4A945E498FE1B90BbB13CFbAF0b68658C9C;
 
+address constant YieldYak_YakSwapRouter = 0xCd887F78c77b36B0b541E77AfD6F91C0253182A2;
+

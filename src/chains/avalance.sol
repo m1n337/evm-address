@@ -24,3 +24,7 @@ address constant Tokens_LINKe = 0x5947BB275c521040051D82396192181b413227A3;
 
 address constant Tokens_AAVEe = 0x63a72806098Bd3D9520cC43356dD78afe5D386D9;
 
+address constant YieldYak_YakSwapRouter = 0xC4729E56b831d74bBc18797e0e17A295fA77488c;
+
+address constant DeltaPrime_SmartLoansFactoryTUP = 0x3Ea9D480295A73fd2aF95b4D96c2afF88b21B03D;
+
