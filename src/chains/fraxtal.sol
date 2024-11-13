@@ -1,5 +1,3 @@
-address constant Tokens_USDT = 0x1E4a5963aBFD975d8c9021ce480b42188849D41d;
-
 address constant BalancerV2_Vault = 0xBA12222222228d8Ba445958a75a0704d566BF2C8;
 
 address constant BalancerV2_BalancerHelpers = 0x8E9aa87E45e92bad84D5F8DD1bff34Fb92637dE9;

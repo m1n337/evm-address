@@ -14,6 +14,7 @@ from data.dapps.Pendle import Pendle
 from data.dapps.LayerZero import LayerZero
 from data.dapps.YieldYak import YieldYak
 from data.dapps.DeltaPrime import DeltaPrime
+from data.dapps.Balancer import BalancerV2
 
 datas = [
     Tokens,
@@ -24,7 +25,8 @@ datas = [
     Pendle,
     LayerZero,
     YieldYak,
-    DeltaPrime
+    DeltaPrime,
+    BalancerV2
 ]
 
 _PATH = os.getenv("EVM_ADDRESSES_PATH")

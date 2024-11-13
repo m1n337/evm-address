@@ -19,6 +19,9 @@ class ChainId:
         "LINEA": 59144,
         "MANTLE": 5000,
 
+        "FRAXTAL": 252,
+        "MODE": 34443,
+
         # Testnet
     }
     _path = "dapps/ChainId.sol"

@@ -1,7 +1,14 @@
+# contract type: ERC1967_PROXY, DIAMOND_PROXY ...
+CONTRACT_TYPE_IMPL = "IMPL"
+CONTRACT_TYPE_LIBRARY = "LIBRARY"
+CONTRACT_TYPE_PROXY = "PROXY"
+CONTRACT_TYPE_DIAMOND_PROXY = "DIAMOND_PROXY"
+
 class ChainSupporter:
     def __init__(self) -> None:
         self._chains = set()
         self._addr = ""
+        self._contract_T = CONTRACT_TYPE_IMPL
 
     @property
     def chains(self):
@@ -12,7 +19,21 @@ class ChainSupporter:
             raise ValueError("no addr")
         
         self._chains.add((chain_name, self._addr))
+    
+    # Contract type:
+    @property
+    def is_proxy(self):
+        return self._contract_T == CONTRACT_TYPE_PROXY
+    
+    @property
+    def is_diamond_proxy(self):
+        return self._contract_T == CONTRACT_TYPE_DIAMOND_PROXY
 
+    @property
+    def is_library(self):
+        return self._contract_T == CONTRACT_TYPE_LIBRARY
+
+    # Chain:
     @property
     def mainnet(self):
         self._add_chain("MAINNET")
@@ -88,6 +109,16 @@ class ChainSupporter:
         self._add_chain("MANTLE")
         return self
 
+    @property
+    def fraxtal(self):
+        self._add_chain("FRAXTAL")
+        return self
+    
+    @property
+    def mode(self):
+        self._add_chain("MODE")
+        return self
+    
     # Testnet
     # @property
     # def goerli(self):

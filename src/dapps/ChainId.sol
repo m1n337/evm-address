@@ -36,4 +36,8 @@ library ChainId {
 
 	uint256 constant MANTLE = 5000;
 
+	uint256 constant FRAXTAL = 252;
+
+	uint256 constant MODE = 34443;
+
 }

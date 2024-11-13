@@ -12,3 +12,9 @@ address constant Tokens_LINK = 0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2;
 
 address constant Tokens_YFI = 0xbf65bfcb5da067446CeE6A706ba3Fe2fB1a9fdFd;
 
+address constant BalancerV2_Vault = 0xBA12222222228d8Ba445958a75a0704d566BF2C8;
+
+address constant BalancerV2_BalancerHelpers = 0x8E9aa87E45e92bad84D5F8DD1bff34Fb92637dE9;
+
+address constant BalancerV2_ProtocolFeesCollector = 0xce88686553686DA562CE7Cea497CE749DA109f9F;
+

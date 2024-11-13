@@ -98,3 +98,9 @@ address constant Pendle_gaugeController = 0x47D74516B33eD5D70ddE7119A40839f6Fcc2
 
 address constant LayerZero_Endpoint = 0x66A71Dcef29A0fFBDBE3c6a460a3B5BC225Cd675;
 
+address constant BalancerV2_Vault = 0xBA12222222228d8Ba445958a75a0704d566BF2C8;
+
+address constant BalancerV2_BalancerHelpers = 0x5aDDCCa35b7A0D07C74063c48700C8590E87864E;
+
+address constant BalancerV2_ProtocolFeesCollector = 0xce88686553686DA562CE7Cea497CE749DA109f9F;
+

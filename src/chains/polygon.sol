@@ -50,3 +50,9 @@ address constant UniswapV3_Permit2 = 0x000000000022D473030F116dDEE9F6B43aC78BA3;
 
 address constant UniswapV3_UniversalRouter = 0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD;
 
+address constant BalancerV2_Vault = 0xBA12222222228d8Ba445958a75a0704d566BF2C8;
+
+address constant BalancerV2_BalancerHelpers = 0x239e55F427D44C3cc793f49bFB507ebe76638a2b;
+
+address constant BalancerV2_ProtocolFeesCollector = 0xce88686553686DA562CE7Cea497CE749DA109f9F;
+

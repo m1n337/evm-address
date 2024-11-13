@@ -45,3 +45,8 @@ contract DappModeExample {
 
 > Note: For the `select` method, when address not found a NULL (0x0) address returned.
 > You should keep this in mind and take necessary precautions to prevent unexpected circumstances.
+
+
+## TODO
+
+- [ ] Generate address table (html) for protocol
