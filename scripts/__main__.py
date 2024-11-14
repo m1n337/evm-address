@@ -16,6 +16,7 @@ from data.dapps.YieldYak import YieldYak
 from data.dapps.DeltaPrime import DeltaPrime
 from data.dapps.Balancer import BalancerV2
 from data.dapps.TraderJoe import TraderJoeV2
+from data.dapps.Curve import Curve
 
 datas = [
     Tokens,
@@ -28,7 +29,8 @@ datas = [
     YieldYak,
     DeltaPrime,
     BalancerV2,
-    TraderJoeV2
+    TraderJoeV2,
+    Curve
 ]
 
 _PATH = os.getenv("EVM_ADDRESSES_PATH")

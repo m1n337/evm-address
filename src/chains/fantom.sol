@@ -22,3 +22,5 @@ address constant Tokens_WBTC = 0x321162Cd933E2Be498Cd2267a90534A804051b11;
 
 address constant Tokens_YFI = 0x29b0Da86e484E1C0029B56e817912d778aC0EC69;
 
+address constant Curve_TriCryptoZapPool_USDBTCETH = 0x79e1b12947B2F41f2c28fF4Ee640746394120b9B;
+

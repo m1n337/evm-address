@@ -42,3 +42,5 @@ address constant TraderJoeV2_LBRouter2_2 = 0x18556DA13313f3532c54711497A8FedAC27
 
 address constant TraderJoeV2_LBFactory2_2 = 0xb43120c4745967fa9b93E79C149E66B0f2D6Fe0c;
 
+address constant Curve_TriCryptoZapPool_USDBTCETH = 0x79e1b12947B2F41f2c28fF4Ee640746394120b9B;
+

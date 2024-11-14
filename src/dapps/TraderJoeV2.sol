@@ -56,15 +56,15 @@ library TraderJoeV2_LBRouter2_2 {
 
 library TraderJoeV2_LBFactory2_2 {
 
-	address constant ARBITRUM = 0xb43120c4745967fa9b93E79C149E66B0f2D6Fe0c;
-
 	address constant AVALANCE = 0xb43120c4745967fa9b93E79C149E66B0f2D6Fe0c;
 
+	address constant ARBITRUM = 0xb43120c4745967fa9b93E79C149E66B0f2D6Fe0c;
+
 	function select() internal returns(address) {
-		if (block.chainid == ChainId.ARBITRUM) {
-			return ARBITRUM;
-		} else if (block.chainid == ChainId.AVALANCE) {
+		if (block.chainid == ChainId.AVALANCE) {
 			return AVALANCE;
+		} else if (block.chainid == ChainId.ARBITRUM) {
+			return ARBITRUM;
 		} 
 
 		return NULL;
