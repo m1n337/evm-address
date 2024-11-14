@@ -34,3 +34,11 @@ address constant BalancerV2_BalancerHelpers = 0x8E9aa87E45e92bad84D5F8DD1bff34Fb
 
 address constant BalancerV2_ProtocolFeesCollector = 0xce88686553686DA562CE7Cea497CE749DA109f9F;
 
+address constant TraderJoeV2_LBRouter2_1 = 0xb4315e873dBcf96Ffd0acd8EA43f689D8c20fB30;
+
+address constant TraderJoeV2_LBFactory2_1 = 0x8e42f2F4101563bF679975178e880FD87d3eFd4e;
+
+address constant TraderJoeV2_LBRouter2_2 = 0x18556DA13313f3532c54711497A8FedAC273220E;
+
+address constant TraderJoeV2_LBFactory2_2 = 0xb43120c4745967fa9b93E79C149E66B0f2D6Fe0c;
+
