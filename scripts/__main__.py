@@ -12,7 +12,7 @@ from data.dapps.Pancake import PancakeSwapV2
 from data.dapps.OneInchNetwork import OneInchNetwork
 from data.dapps.Pendle import Pendle
 from data.dapps.LayerZero import LayerZero
-from data.dapps.YieldYak import YieldYak
+from data.dapps.YieldYak import YieldYak, YieldYakAdapter
 from data.dapps.DeltaPrime import DeltaPrime
 from data.dapps.Balancer import BalancerV2
 from data.dapps.TraderJoe import TraderJoeV2
@@ -28,6 +28,7 @@ datas = [
     Pendle,
     LayerZero,
     YieldYak,
+    YieldYakAdapter,
     DeltaPrime,
     BalancerV2,
     TraderJoeV2,

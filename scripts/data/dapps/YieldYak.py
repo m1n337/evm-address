@@ -9,3 +9,11 @@ class YieldYak(Dapp):
     ]
 
     _path = "dapps/YieldYak"
+
+class YieldYakAdapter(Dapp):
+    _contracts = [
+        Contract("GlpWrapper")\
+            .on_addr("0x442DB6e78e54449B2a5f08A943Fa8a79041C797b").avalance,
+    ]
+
+    _path = "dapps/YieldYakAdapter"

@@ -26,6 +26,8 @@ address constant Tokens_AAVEe = 0x63a72806098Bd3D9520cC43356dD78afe5D386D9;
 
 address constant YieldYak_YakSwapRouter = 0xC4729E56b831d74bBc18797e0e17A295fA77488c;
 
+address constant YieldYakAdapter_GlpWrapper = 0x442DB6e78e54449B2a5f08A943Fa8a79041C797b;
+
 address constant DeltaPrime_SmartLoansFactoryTUP = 0x3Ea9D480295A73fd2aF95b4D96c2afF88b21B03D;
 
 address constant BalancerV2_Vault = 0xBA12222222228d8Ba445958a75a0704d566BF2C8;
