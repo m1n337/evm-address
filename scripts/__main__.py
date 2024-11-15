@@ -17,6 +17,7 @@ from data.dapps.DeltaPrime import DeltaPrime
 from data.dapps.Balancer import BalancerV2
 from data.dapps.TraderJoe import TraderJoeV2
 from data.dapps.Curve import Curve
+from data.dapps.Gmx import Gmx
 
 datas = [
     Tokens,
@@ -30,7 +31,8 @@ datas = [
     DeltaPrime,
     BalancerV2,
     TraderJoeV2,
-    Curve
+    Curve,
+    Gmx
 ]
 
 _PATH = os.getenv("EVM_ADDRESSES_PATH")

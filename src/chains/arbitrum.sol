@@ -80,3 +80,11 @@ address constant TraderJoeV2_LBRouter2_2 = 0x18556DA13313f3532c54711497A8FedAC27
 
 address constant TraderJoeV2_LBFactory2_2 = 0xb43120c4745967fa9b93E79C149E66B0f2D6Fe0c;
 
+address constant Gmx_stakedGLP = 0xaE64d55a6f09E4263421737397D1fdFA71896a69;
+
+address constant Gmx_sGLP = 0xaE64d55a6f09E4263421737397D1fdFA71896a69;
+
+address constant Gmx_RewardTracker = 0x9e295B5B976a184B14aD8cd72413aD846C299660;
+
+address constant Gmx_fsGLP = 0x9e295B5B976a184B14aD8cd72413aD846C299660;
+
