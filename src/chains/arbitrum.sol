@@ -66,6 +66,8 @@ address constant YieldYak_YakSwapRouter = 0xb32C79a25291265eF240Eb32E9faBbc6DcEE
 
 address constant DeltaPrime_SmartLoansFactoryTUP = 0xFf5e3dDaefF411a1dC6CcE00014e4Bca39265c20;
 
+address constant DeltaPrime_SmartLoanDiamondBeacon = 0x62Cf82FB0484aF382714cD09296260edc1DC0c6c;
+
 address constant BalancerV2_Vault = 0xBA12222222228d8Ba445958a75a0704d566BF2C8;
 
 address constant BalancerV2_BalancerHelpers = 0x77d46184d22CA6a3726a2F500c776767b6A3d6Ab;
